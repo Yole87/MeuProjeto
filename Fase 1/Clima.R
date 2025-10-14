@@ -2,7 +2,7 @@
 # Clima via Open-Meteo (sem token)
 # Salve como: clima.R
 # Execute no R/RStudio: source("clima.R")
-# ou pela linha de comando: Rscript clima.R "São Paulo"
+# ou pela linha de comando: Rscript Clima.R "São Paulo"
 # =============================
 
 # Pacotes necessários
