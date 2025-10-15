@@ -56,6 +56,8 @@ O **FarmTech** é um sistema completo de irrigação inteligente desenvolvido es
 - **LED Indicador**: Status visual do sistema
 - **Conectividade WiFi**: Comunicação com servidor web
 
+- [Imagem das conexões no Wokwi](https://drive.google.com/file/d/1gtHG7cj1iLYVffD1IStQy45Prqavw1xG/view?usp=sharing)
+
 ### 💻 Software
 - **Backend Flask**: Servidor web em Python
 - **Frontend Responsivo**: HTML5, CSS3, JavaScript
@@ -136,7 +138,7 @@ const char* password = "SUA_SENHA_WIFI";
 #### Servidor Python
 ```bash
 # 1. Clonar repositório
-git clone https://github.com/Yole87/Atividades-FIAP/tree/FIAP_IA_Online
+git clone https://github.com/Yole87/Atividades-FIAP/tree/FIAP_IA_Online/Fase%202/Cap%201%20-%20Um%20Mapa%20do%20Tesouro
 cd Cap 1 - Um Mapa do Tesouro
 
 # 2. Instalar dependências
@@ -458,8 +460,8 @@ bool precisaIrrigar() {
 
 ### Equipe de Desenvolvimento
 - **Email**: suporte@farmtech.com.br (fictício)
-- **GitHub**: [FarmTech-Fase2](https://github.com/Yole87/Atividades-FIAP/tree/FIAP_IA_Online)
-- **Documentação**: [Wiki do Projeto](https://github.com/Yole87/Atividades-FIAP/tree/FIAP_IA_Online)
+- **GitHub**: [FarmTech-Fase2](https://github.com/Yole87/Atividades-FIAP/tree/FIAP_IA_Online/Fase%202)
+- **Documentação**: [Wiki do Projeto](https://github.com/Yole87/Atividades-FIAP/tree/FIAP_IA_Online/Fase%202)
 
 ### Licença
 Este projeto está licenciado sob a **FarmTech License** 
