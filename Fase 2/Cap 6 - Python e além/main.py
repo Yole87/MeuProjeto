@@ -1,8 +1,7 @@
 import json
 from datetime import datetime
-import locale # <-- CORREÇÃO APLICADA AQUI
-# Importa as funções que criamos no outro arquivo, incluindo a nova 'excluir_analise_db'
-from db_operations import salvar_analise_db, carregar_historico_db, excluir_analise_db
+import locale
+from db_operations import salvar_analise_db, carregar_historico_db, excluir_analise_db # Importa as funções que criamos no outro arquivo, incluindo a nova 'excluir_analise_db'
 
 # --- CONFIGURAÇÃO GLOBAL ---
 USAR_BANCO_DE_DADOS = True # Mude para False para usar o sistema de arquivos JSON
@@ -63,6 +62,7 @@ def exibir_recomendacoes(respostas_checklist):
         if item["chave"] in respostas_negativas:
             print(f"\n  [!] Ponto de Atenção: {item['pergunta']}")
             print(f"      -> Recomendação: {item['recomendacao']}")
+            
 # --- Funções de Fluxo de Trabalho ---
 def executar_nova_analise():
     print("\n--- REGISTRAR NOVA ANÁLISE DE PERDA ---")
